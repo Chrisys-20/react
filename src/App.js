@@ -3,7 +3,6 @@ import Employee from './components/Employee';
 
 function App() {
 
-  console.log('We are about to list the employees');
   const showEmployees =true;
   return (
     <div className="App">
@@ -11,8 +10,8 @@ function App() {
       { 
       showEmployees ?(
         <>
-      <Employee/>
-      <Employee/>
+      <Employee name="Caleb" role="Inter"/>
+      <Employee />
       <Employee/>
       <Employee/>
       </>
